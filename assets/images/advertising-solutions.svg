@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="bgPillar2" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#182234"/>
+    </linearGradient>
+    <linearGradient id="adAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5520"/>
+      <stop offset="100%" stop-color="#0082c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#bgPillar2)"/>
+  <!-- Subtle grid lines -->
+  <path d="M50 0 V400 M150 0 V400 M250 0 V400 M350 0 V400 M450 0 V400 M550 0 V400" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+  <path d="M0 80 H600 M0 160 H600 M0 240 H600 M0 320 H600" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+  <!-- Hoarding Billboard Frame / Screen -->
+  <rect x="130" y="80" width="340" height="170" rx="12" fill="#0b0f19" stroke="#0082c8" stroke-width="3"/>
+  <rect x="145" y="95" width="310" height="140" rx="6" fill="#1e293b" fill-opacity="0.8"/>
+  <!-- Broadcast Wave / Pulse -->
+  <circle cx="300" cy="165" r="30" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="300" cy="165" r="50" stroke="#ff5520" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.7"/>
+  <!-- Megaphone / Broadcast Horn Minimal -->
+  <path d="M280 155 L310 140 V190 L280 175 Z" fill="#0082c8"/>
+  <path d="M265 160 H280 V170 H265 Z" fill="#ffffff"/>
+  <!-- Hoarding Support Poles -->
+  <line x1="180" y1="250" x2="180" y2="330" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="420" y1="250" x2="420" y2="330" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  <!-- Badges -->
+  <rect x="90" y="320" width="160" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="110" y="346" fill="#ff5520" font-family="monospace" font-size="12" font-weight="700">ATL: TV / RADIO / PRINT</text>
+  <rect x="290" y="320" width="220" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="306" y="346" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="700">BTL: HOARDINGS / POP / POLES</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="bgPillar1" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0082c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#bgPillar1)"/>
+  <!-- Subtle grid lines -->
+  <path d="M50 0 V400 M150 0 V400 M250 0 V400 M350 0 V400 M450 0 V400 M550 0 V400" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+  <path d="M0 80 H600 M0 160 H600 M0 240 H600 M0 320 H600" stroke="#334155" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+  <!-- Central Brand Identity Diamond & Monogram -->
+  <rect x="220" y="90" width="160" height="160" rx="24" transform="rotate(45 300 170)" stroke="url(#cyanBlue)" stroke-width="3" fill="#0b0f19" fill-opacity="0.8"/>
+  <path d="M260 170 C240 140 210 140 190 170 C170 200 200 230 230 200 L370 140 C400 110 430 140 410 170 C390 200 360 200 340 170" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Typography & Guidelines Elements -->
+  <rect x="80" y="290" width="180" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="100" y="322" fill="#38bdf8" font-family="monospace" font-size="13" font-weight="700">BRAND LOGO &amp; IDENTITY</text>
+  <rect x="290" y="290" width="230" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="310" y="322" fill="#94a3b8" font-family="monospace" font-size="13" font-weight="600">SALES KITS &amp; COLLATERAL</text>
+  <!-- Compass / Crosshair marks -->
+  <circle cx="300" cy="170" r="4" fill="#ff5520"/>
+  <circle cx="300" cy="170" r="70" stroke="#38bdf8" stroke-width="1" stroke-dasharray="6 6" opacity="0.5"/>
+</svg>
