@@ -22,7 +22,7 @@ export function OrganizationJsonLd() {
     name: organizationInfo.name,
     alternateName: organizationInfo.nepaliName,
     url: siteMetadata.siteUrl,
-    logo: `${siteMetadata.siteUrl}/images/logo.svg`,
+    logo: `${siteMetadata.siteUrl}/images/spectrum-logo.png`,
     description: organizationInfo.officialOverview,
     foundingDate: "2003",
     foundingLocation: {
@@ -117,7 +117,7 @@ export function ArticleJsonLd({
       name: organizationInfo.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteMetadata.siteUrl}/images/logo.svg`,
+        url: `${siteMetadata.siteUrl}/images/spectrum-logo.png`,
       },
     },
     mainEntityOfPage: {

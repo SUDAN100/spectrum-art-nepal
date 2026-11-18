@@ -59,10 +59,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/images/spectrum-icon.png", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/images/logo-icon.svg", type: "image/svg+xml" },
     ],
-    apple: "/images/logo-icon.svg",
+    apple: "/images/spectrum-icon.png",
   },
 };
 
