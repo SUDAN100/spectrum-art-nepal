@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F6F2" />
+      <stop offset="100%" stop-color="#EFEAE1" />
+    </linearGradient>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9E3E3D" />
+      <stop offset="50%" stop-color="#7B302F" />
+      <stop offset="100%" stop-color="#4E1D1C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Elegant art frames / borders -->
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#D9C8B8" stroke-width="2" />
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#7B302F" stroke-width="1" stroke-opacity="0.3" />
+
+  <!-- Left Artistic Mandala / Spectrum motif -->
+  <g transform="translate(140, 315) scale(1.6)">
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#D9C8B8" stroke-width="1.5" stroke-dasharray="4,4" />
+    <circle cx="0" cy="0" r="70" fill="#FFFFFF" stroke="#7B302F" stroke-width="2.5" />
+    <path d="M 0 0 L 0 -58 A 58 58 0 0 1 50 -29 Z" fill="#7B302F" />
+    <path d="M 0 0 L 50 -29 A 58 58 0 0 1 58 0 Z" fill="#9E3E3D" />
+    <path d="M 0 0 L 58 0 A 58 58 0 0 1 50 29 Z" fill="#B85B59" />
+    <path d="M 0 0 L 50 29 A 58 58 0 0 1 0 58 Z" fill="#D9C8B8" />
+    <path d="M 0 0 L 0 58 A 58 58 0 0 1 -50 29 Z" fill="#B8A38F" />
+    <path d="M 0 0 L -50 29 A 58 58 0 0 1 -58 0 Z" fill="#602423" />
+    <path d="M 0 0 L -58 0 A 58 58 0 0 1 -50 -29 Z" fill="#451A19" />
+    <path d="M 0 0 L -50 -29 A 58 58 0 0 1 0 -58 Z" fill="#7B302F" />
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#7B302F" stroke-width="2" />
+    <circle cx="0" cy="0" r="16" fill="url(#burgundyGrad)" />
+    <circle cx="0" cy="0" r="6" fill="#D9C8B8" />
+  </g>
+
+  <!-- Right Typography -->
+  <g transform="translate(360, 200)">
+    <text x="0" y="40" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="600" letter-spacing="6" fill="#7B302F">
+      ESTABLISHED 2060 B.S. • KATHMANDU, NEPAL
+    </text>
+    
+    <text x="0" y="120" font-family="'Cormorant Garamond', Georgia, serif" font-size="64" font-weight="700" letter-spacing="4" fill="#7B302F">
+      SPECTRUM
+    </text>
+    <text x="0" y="170" font-family="'Inter', sans-serif" font-size="28" font-weight="700" letter-spacing="10" fill="#292929">
+      ART ASSOCIATION
+    </text>
+
+    <line x1="0" y1="200" x2="650" y2="200" stroke="#7B302F" stroke-width="2" />
+    <line x1="0" y1="206" x2="450" y2="206" stroke="#D9C8B8" stroke-width="1.5" />
+
+    <text x="0" y="250" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="32" fill="#292929">
+      Where Art Meets Expression
+    </text>
+
+    <text x="0" y="295" font-family="'Inter', sans-serif" font-size="16" font-weight="400" fill="#666666" letter-spacing="1">
+      Celebrating Nepali Art, Connecting Creative Minds &amp; Cultural Heritage
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+import { Artist } from "@/types";
+
+export const artistsData: Artist[] = [
+  {
+    id: "artist-1",
+    slug: "indra-shrestha",
+    name: "Indra Shrestha",
+    discipline: "Contemporary Painting & Mixed Media",
+    location: "Kathmandu, Nepal",
+    bio: "Senior contemporary visual artist focusing on the intersection of Himalayan natural motifs, organic pigments, and evolving urban expressions across Nepal.",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+    featured: true,
+    selectedArtworks: ["Whispers of the Valley", "Rhythms of the Himalayas", "Sojourn in Ochre"],
+    socials: {
+      instagram: "https://instagram.com",
+      facebook: "https://facebook.com",
+    },
+  },
+  {
+    id: "artist-2",
+    slug: "kishor-kanaujiya",
+    name: "Kishor Kanaujiya",
+    discipline: "Oil on Canvas & Cultural Expression",
+    location: "Kathmandu, Nepal",
+    bio: "Accomplished painter known for evocative figurative work and vibrant depictions of Nepali lifestyle, ritual heritage, and communal harmonies.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+    featured: true,
+    selectedArtworks: ["Morning Lights of Patan", "Devotion in Vermilion"],
+    socials: {
+      instagram: "https://instagram.com",
+    },
+  },
+  {
+    id: "artist-3",
+    slug: "deepak-maharjan",
+    name: "Deepak Maharjan",
+    discipline: "Sculpture & Traditional Metalcraft",
+    location: "Lalitpur, Nepal",
+    bio: "Sculptor bridging centuries-old Newari bronze lost-wax casting with modern dynamic abstract forms and spatial installations.",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+    featured: true,
+    selectedArtworks: ["Eternal Resonance", "Form and Emptiness"],
+    socials: {
+      website: "https://example.com",
+    },
+  },
+  {
+    id: "artist-4",
+    slug: "nisha-maharjan",
+    name: "Nisha Maharjan",
+    discipline: "Paubha Art & Traditional Iconography",
+    location: "Kathmandu, Nepal",
+    bio: "Specialist in sacred Newar Paubha painting, utilizing natural mineral pigments and 24-carat gold leaf to portray enlightened deities and cosmological mandalas.",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    featured: true,
+    selectedArtworks: ["Green Tara in Mineral Pigment", "Cosmic Wheel of Compassion"],
+    socials: {
+      instagram: "https://instagram.com",
+    },
+  },
+  {
+    id: "artist-5",
+    slug: "dal-bahadur-rai",
+    name: "Dal Bahadur Rai",
+    discipline: "Watercolor & Landscape Impressionism",
+    location: "Dharan / Kathmandu, Nepal",
+    bio: "Plein-air watercolorist capturing the luminous atmospheric light across eastern Nepal's hills and Kathmandu's historic alleyways.",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
+    featured: false,
+    selectedArtworks: ["Mist over Ilam Hills", "Afternoon Rain in Asan"],
+    socials: {
+      facebook: "https://facebook.com",
+    },
+  },
+  {
+    id: "artist-6",
+    slug: "binita-buddhacharya",
+    name: "Binita Buddhacharya",
+    discipline: "Printmaking & Woodcut Engraving",
+    location: "Kathmandu, Nepal",
+    bio: "Printmaker exploring Nepali floral motifs, mythical beasts, and contemporary environmental stewardship through hand-pulled woodcuts and etchings.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+    featured: false,
+    selectedArtworks: ["Flora of Shivapuri", "Monsoon Symphony"],
+    socials: {
+      instagram: "https://instagram.com",
+    },
+  },
+  {
+    id: "artist-7",
+    slug: "bishnu-chaudhari",
+    name: "Bishnu Chaudhari",
+    discipline: "Tharu Cultural Art & Mural Painting",
+    location: "Chitwan / Kathmandu, Nepal",
+    bio: "Pioneering artist translating indigenous Tharu clay relief patterns, flora, and agricultural traditions into contemporary canvas and public mural formats.",
+    image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
+    featured: false,
+    selectedArtworks: ["Terai Harvest Chronicle", "Spirits of the Sal Forest"],
+    socials: {
+      facebook: "https://facebook.com",
+    },
+  },
+  {
+    id: "artist-8",
+    slug: "hari-nepali",
+    name: "Hari Nepali",
+    discipline: "Ceramics & Terra Cotta Art",
+    location: "Bhaktapur, Nepal",
+    bio: "Ceramic artist reinventing the ancient pottery craft of Bhaktapur into thought-provoking architectural vessels and contemporary textured pottery.",
+    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
+    featured: false,
+    selectedArtworks: ["Vessels of Memory", "Earthy Contours"],
+    socials: {
+      website: "https://example.com",
+    },
+  },
+];
+
+export const getFeaturedArtists = () => artistsData.filter((a) => a.featured);
+export const getArtistBySlug = (slug: string) => artistsData.find((a) => a.slug === slug);
