@@ -34,3 +34,5 @@ next-env.d.ts
 
 # legacy backup
 /_legacy_infinity_site/
+push.bat
+
