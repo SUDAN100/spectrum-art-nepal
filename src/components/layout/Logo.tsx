@@ -51,6 +51,7 @@ export function Logo({ variant = "light", className = "", size = "md" }: LogoPro
             alt="Spectrum Art Association Logo"
             width={sizeConfig.width}
             height={sizeConfig.height}
+            style={{ width: "auto", height: "auto" }}
             className={`${sizeConfig.className} object-contain transition-transform duration-300 group-hover:scale-[1.02]`}
             priority
           />
@@ -63,6 +64,7 @@ export function Logo({ variant = "light", className = "", size = "md" }: LogoPro
             alt="Spectrum Art Association Logo"
             width={sizeConfig.width}
             height={sizeConfig.height}
+            style={{ width: "auto", height: "auto" }}
             className={`${sizeConfig.className} object-contain transition-transform duration-300 group-hover:scale-[1.02]`}
             priority
           />
