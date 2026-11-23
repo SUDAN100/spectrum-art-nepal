@@ -6,6 +6,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Indra Shrestha",
     position: "President",
     category: "executive",
+    image: "/images/committee/indra-shrestha.jpg",
     order: 1,
   },
   {
@@ -13,6 +14,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Ramkrishna Thapa",
     position: "Vice President",
     category: "executive",
+    image: "/images/committee/ramkrishna-thapa.jpg",
     order: 2,
   },
   {
@@ -20,6 +22,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Kishor Kanaujiya",
     position: "Secretary",
     category: "executive",
+    image: "/images/committee/kishor-kanaujiya.jpg",
     order: 3,
   },
   {
@@ -27,6 +30,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Dal Bahadur Rai",
     position: "Joint Secretary",
     category: "executive",
+    image: "/images/committee/dal-bahadur-rai.jpg",
     order: 4,
   },
   {
@@ -34,6 +38,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Deepak Maharjan",
     position: "Treasurer",
     category: "executive",
+    image: "/images/committee/deepak-maharjan.jpg",
     order: 5,
   },
   {
@@ -41,6 +46,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Nisha Maharjan",
     position: "Member",
     category: "executive",
+    image: "/images/committee/nisha-maharjan.jpg",
     order: 6,
   },
   {
@@ -48,6 +54,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Binita Buddhacharya",
     position: "Member",
     category: "executive",
+    image: "/images/committee/binita-buddhacharya.jpg",
     order: 7,
   },
   {
@@ -55,6 +62,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Bishnu Chaudhari",
     position: "Member",
     category: "executive",
+    image: "/images/committee/bishnu-chaudhari.jpg",
     order: 8,
   },
   {
@@ -62,6 +70,7 @@ export const executiveCommittee: CommitteeMember[] = [
     name: "Hari Nepali",
     position: "Member",
     category: "executive",
+    image: "/images/committee/hari-nepali.jpg",
     order: 9,
   },
 ];

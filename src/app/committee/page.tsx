@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { InitialsAvatar } from "@/components/ui/InitialsAvatar";
@@ -54,15 +55,27 @@ export default function CommitteePage() {
                 key={member.id}
                 className="group relative bg-[#FDFCFB] rounded-2xl p-8 border border-charcoal-border/30 shadow-card hover:shadow-art transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center space-y-4"
               >
-                {/* Tasteful Initials-Based Profile Placeholder */}
+                {/* Official Photograph or Tasteful Initials-Based Profile Placeholder */}
                 <div className="relative">
-                  <InitialsAvatar
-                    name={member.name}
-                    size="xl"
-                    className="group-hover:scale-105 transition-transform duration-300"
-                  />
+                  {member.image ? (
+                    <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-accent/80 shadow-md group-hover:scale-105 transition-transform duration-300 bg-secondary">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-cover"
+                        sizes="128px"
+                      />
+                    </div>
+                  ) : (
+                    <InitialsAvatar
+                      name={member.name}
+                      size="xl"
+                      className="group-hover:scale-105 transition-transform duration-300"
+                    />
+                  )}
                   {member.position === "President" && (
-                    <span className="absolute -bottom-2 -right-2 bg-primary text-white p-1.5 rounded-full shadow">
+                    <span className="absolute -bottom-1 -right-1 bg-primary text-white p-1.5 rounded-full shadow-md z-10">
                       <Award className="w-4 h-4 text-accent" />
                     </span>
                   )}
@@ -107,7 +120,19 @@ export default function CommitteePage() {
                 className="bg-white rounded-2xl p-8 border border-charcoal-border/30 shadow-card flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left hover:shadow-art transition-shadow"
               >
                 <div className="shrink-0">
-                  <InitialsAvatar name={advisor.name} size="lg" />
+                  {advisor.image ? (
+                    <div className="relative w-24 h-24 rounded-full overflow-hidden border-2 border-accent/80 shadow bg-secondary">
+                      <Image
+                        src={advisor.image}
+                        alt={advisor.name}
+                        fill
+                        className="object-cover"
+                        sizes="96px"
+                      />
+                    </div>
+                  ) : (
+                    <InitialsAvatar name={advisor.name} size="lg" />
+                  )}
                 </div>
 
                 <div className="space-y-2">
