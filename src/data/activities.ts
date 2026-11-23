@@ -98,7 +98,7 @@ export const activitiesData: Activity[] = [
       "Concludes with an open-air village exhibition engaging local schools, residents, and visitors."
     ],
     additionalPhotos: [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
     ],
   },
 
@@ -119,7 +119,7 @@ export const activitiesData: Activity[] = [
       "Culminated in a communal wall mural celebrating shared folkloric stories and cultural solidarity."
     ],
     additionalPhotos: [
-      "https://images.unsplash.com/photo-1460661419200-1868a1eb26cd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1580136579312-94651dfd596d?auto=format&fit=crop&w=800&q=80",
     ],
   },
