@@ -81,6 +81,7 @@ export const advisors: CommitteeMember[] = [
     name: "K.K. Karmacharya",
     position: "Founding Advisor",
     category: "advisor",
+    image: "/images/committee/kk-karmacharya.jpg",
     order: 10,
   },
   {
@@ -88,6 +89,7 @@ export const advisors: CommitteeMember[] = [
     name: "Advocate Chandra Maharja",
     position: "Legal Advisor",
     category: "advisor",
+    image: "/images/committee/advocate-chandra-maharjan.jpg",
     order: 11,
   },
 ];

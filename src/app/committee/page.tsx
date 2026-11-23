@@ -121,13 +121,13 @@ export default function CommitteePage() {
               >
                 <div className="shrink-0">
                   {advisor.image ? (
-                    <div className="relative w-24 h-24 rounded-full overflow-hidden border-2 border-accent/80 shadow bg-secondary">
+                    <div className="relative w-28 h-28 rounded-full overflow-hidden border-2 border-accent/80 shadow-md bg-secondary group-hover:scale-105 transition-transform duration-300">
                       <Image
                         src={advisor.image}
                         alt={advisor.name}
                         fill
                         className="object-cover"
-                        sizes="96px"
+                        sizes="112px"
                       />
                     </div>
                   ) : (
